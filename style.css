@@ -13,11 +13,11 @@ overflow: hidden;
     font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: 1.250vw; 
     padding: 1.5em;
-  /*  padding-right: 0;*/
+  
     height: 70vh;
     margin: 0 auto ;
     position: relative;
-    width: 90vh;
+    width: 45vw;
     filter:url();
 }
 .wrapper > input {
@@ -85,13 +85,13 @@ overflow: hidden;
     position: relative;
     width: 100%;
     border-radius: 2em;
-    box-shadow: 0 0 0 0.1em rgb(0, 138, 230) ; /* #b1b400  rgb(0, 138, 230)*/
+    box-shadow: 0 0 0 0.1em rgb(0, 138, 230) ; 
 
 
 }
 .slides {
     height: 50vh;
-    width: 82vh;
+    width: 41.5vw;
 
 
    position: fixed;
@@ -120,6 +120,11 @@ overflow: hidden;
     padding-left: 0;
 
 }
+
+@media (max-width:1880px)  {
+    .slides { height: 49vh;
+    }
+}
 /*320 x 568 */ 
 @media (max-width:420px)  {
     .wrapper {
@@ -147,7 +152,7 @@ overflow: hidden;
     }
     .slides {
         height: 62vh;
-        width: 49vh;
+        width: 87vw;
         
     }
 
@@ -176,3 +181,5 @@ overflow: hidden;
      }
 
 }
+
+
