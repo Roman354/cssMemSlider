@@ -116,3 +116,59 @@ overflow: hidden;
     padding-left: 0;
 
 }
+/*320 x 568 */ 
+@media (max-width:420px)  {
+    .wrapper {
+        
+        font-size: 5vw; 
+         padding: 0.3em;
+         height: 80vh;
+         margin: 3em auto ;
+         position: relative;
+         width: 95%;
+         
+     }  
+     .wrapper .controls {
+        right: 32%;
+        margin: 0;
+    
+    }
+     .slider {
+    
+    
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+
+    }
+    .slides {
+        height: 62vh;
+        width: 49vh;
+        
+    }
+
+    .slidetext {
+        position: fixed;
+        bottom: -5em;
+        left: 0%;
+        color: #ffffff;
+        
+
+    }
+
+    .slide1 { 
+        background-image: url('mem11.jpg');
+      
+    }
+    .slide2 { 
+        background-image: url('mem22.jpg');
+        }
+    .slide3 { 
+        background-image: url('mem33.jpg');
+     }
+    .slide4 { 
+        background-image: url('mem44.jpg');
+    
+     }
+
+}
